@@ -1,22 +1,26 @@
 import React from 'react';
 
+//import components
+import Form from '../components/Form';
+import Label from '../components/Label';
+
 
 const ContactForm = () => (
     <div>
         <h3>Email Us</h3>
-        <form>
-            <label>Name</label>
+        <Form>
+            <Label>Name</Label>
             <input type="text" name="name" />
-            <label>Company</label>
+            <Label>Company</Label>
             <input type="text" name="company" />
-            <label>Email Address</label>
+            <Label>Email Address</Label>
             <input type="email" name="email" />
-            <label>Phone Number</label>
+            <Label>Phone Number</Label>
             <input type="text" name="phone" />
-            <label>Message</label>
+            <Label>Message</Label>
             <textarea name="message" rows="5"></textarea>
             <button>Submit</button>
-        </form>
+        </Form>
     </div>
 )
 
