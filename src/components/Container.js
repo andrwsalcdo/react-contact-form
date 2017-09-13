@@ -12,6 +12,14 @@ const Container = styled.div`
         > * {
             padding: 1em; 
         }
+        
+        @media (min-width: 700px) {
+            display: grid; 
+            grid-template-columns: 1fr 2fr; 
+            > * {
+                padding: 2em; 
+            }
+        }
     `}
 `; 
 
