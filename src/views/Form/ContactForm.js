@@ -1,19 +1,20 @@
 import React from 'react'
 import styled from 'styled-components'
-import { css } from 'styled-components'; 
+import { css } from 'styled-components'
 
 //import components
-import Form from '../components/Form'
-import Label from '../components/Label'
-import StyledButton from '../components/Button'
-import Input from '../components/Input'
-import Textarea from '../components/Textarea'
+import Form from '../../components/Form'
+import Label from '../../components/Label'
+import StyledButton from '../../components/Button'
+import Input from '../../components/Input'
+import Textarea from '../../components/Textarea'
 
 const WrapperGrid = styled.div`
     ${props => props.full && css`
         grid-column: 1 / 3;
     `}
 `;
+
 
 
 const ContactForm = () => (
@@ -47,4 +48,4 @@ const ContactForm = () => (
     </div>
 )
 
-export default ContactForm; 
+export default ContactForm

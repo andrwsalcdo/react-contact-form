@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
-const Textarea = styled.input`
+const Textarea = styled.textarea`
     border: 1px solid #E6343B; 
     padding: 1em; 
     width: 100%; 

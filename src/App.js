@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 // inject global styles from styled-components. border-sizing, body. 
-import { injectGlobal } from 'styled-components';
+import { injectGlobal } from 'styled-components'
 // holds all components
-import Main from './views/Main';
+import Main from './views/Main/Main'
 
 injectGlobal`
   * {
@@ -25,4 +25,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App

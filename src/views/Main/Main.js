@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 //import all child components
-import Container from '../components/Container'
-import Title from '../components/Title'
-import CompanyInfo from './CompanyInfo'
-import ContactForm from './ContactForm'
+import Container from '../../components/Container'
+import Title from '../../components/Title'
+import CompanyInfo from '../Form/CompanyInfo'
+import ContactForm from '../Form/ContactForm'
 
 
 
@@ -21,4 +21,4 @@ class Main extends Component {
     }
 }
 
-export default Main; 
+export default Main

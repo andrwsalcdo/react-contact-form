@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 
 
 const WrapperCompanyInfo=styled.div`
@@ -37,4 +37,4 @@ const CompanyInfo = () => (
     </WrapperCompanyInfo>
 )
 
-export default CompanyInfo; 
+export default CompanyInfo

@@ -1,5 +1,4 @@
-import styled from 'styled-components';
-import { css } from 'styled-components'; 
+import styled from 'styled-components'
 
 const Form = styled.form`
   display: grid; 
@@ -7,4 +6,4 @@ const Form = styled.form`
   grid-gap: 20px; 
 `; 
 
-export default Form; 
+export default Form

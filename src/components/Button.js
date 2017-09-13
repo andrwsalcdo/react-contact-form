@@ -1,6 +1,5 @@
 // import React from 'react';
-import styled from 'styled-components';
-import { css } from 'styled-components'; 
+import styled from 'styled-components'
 
 const StyledButton = styled.button`
     background: #E6343B;
