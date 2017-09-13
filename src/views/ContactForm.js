@@ -1,8 +1,9 @@
 import React from 'react';
 
 //import components
-import Form from '../components/Form';
-import Label from '../components/Label';
+import Form from '../components/Form'
+import Label from '../components/Label'
+import StyledButton from '../components/Button'
 
 
 const ContactForm = () => (
@@ -19,7 +20,7 @@ const ContactForm = () => (
             <input type="text" name="phone" />
             <Label>Message</Label>
             <textarea name="message" rows="5"></textarea>
-            <button>Submit</button>
+            <StyledButton>Submit</StyledButton>
         </Form>
     </div>
 )
